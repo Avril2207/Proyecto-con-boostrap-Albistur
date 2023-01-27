@@ -1,0 +1,65 @@
+/* GENERAL */
+nav {
+  background-color: rgba(247, 175, 150, 0.803);
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+}
+.footer-sm-icons {
+  background-color: rgba(128, 128, 128, 0.581);
+  padding: 2px;
+}
+.footer-sm-icons a {
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+}
+.sm-text {
+  font-size: 20px;
+  padding: 15px;
+}
+.footer-copyright {
+  color: white;
+}
+/* RESPONSIVE 1023px */
+@media (min-width: 1023px) {
+  /* FOOTER */
+  .footer-copyright {
+    margin-top: 2px;
+  }
+  .footer-sm-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/* INICIO */
+.container {
+  text-align: center;
+}
+.container--black {
+  background-color: black;
+  text-align: center;
+}
+.row--grey {
+  background-color: rgba(220, 220, 220, 0.673);
+  color: whitesmoke;
+}
+.title {
+  font-family: "Dancing Script", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Moon Dance", cursive;
+}
+.image {
+  width: 90%;
+  height: 90%;
+}
