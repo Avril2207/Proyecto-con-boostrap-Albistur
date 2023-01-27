@@ -31,17 +31,6 @@ footer {
 .footer-copyright {
   color: white;
 }
-/* RESPONSIVE 1023px */
-@media (min-width: 1023px) {
-  /* FOOTER */
-  .footer-copyright {
-    margin-top: 2px;
-  }
-  .footer-sm-icons {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 /* INICIO */
 .container {
   text-align: center;
@@ -62,4 +51,22 @@ footer {
 .image {
   width: 90%;
   height: 90%;
+}
+.image:hover {
+}
+/* RESPONSIVE 1023px */
+@media (min-width: 1023px) {
+  /* FOOTER */
+  .footer-copyright {
+    margin-top: 2px;
+  }
+  .footer-sm-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* INICIO */
+  .text {
+    font-size: 25px;
+    text-align: start;
+  }
 }
