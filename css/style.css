@@ -52,8 +52,6 @@ footer {
   width: 90%;
   height: 90%;
 }
-.image:hover {
-}
 /* RESPONSIVE 1023px */
 @media (min-width: 1023px) {
   /* FOOTER */
