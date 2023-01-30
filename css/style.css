@@ -111,4 +111,30 @@ footer {
     font-size: 25px;
     text-align: start;
   }
+  /* PRODUCTOS */
+  .section {
+    text-align: center;
+  }
+  .cakes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .cupecakes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .cakepops {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .picture {
+    max-width: 250px;
+    padding: 20px 30px;
+  }
+  .subtitle {
+    text-align: center;
+  }
 }
