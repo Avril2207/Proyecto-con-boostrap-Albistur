@@ -7,7 +7,6 @@ header {
   top: 0px;
   z-index: 2;
 }
-
 /* FOOTER */
 footer {
   background-color: black;
@@ -53,7 +52,50 @@ footer {
   height: 90%;
 }
 /* PRODUCTOS*/
-
+.section {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4 auto);
+  grid-gap: 10px;
+  grid-template-areas:
+    "titulo"
+    "tortas"
+    "cupecakes"
+    "cakepops";
+}
+.title_productos {
+  font-family: "Dancing Script", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Moon Dance", cursive;
+  grid-area: titulo;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+}
+.cakes {
+  grid-area: tortas;
+  text-align: center;
+  margin-top: 20px;
+}
+.cupecakes {
+  grid-area: cupecakes;
+  text-align: center;
+  margin-top: 50px;
+}
+.cakepops {
+  grid-area: cakepops;
+  text-align: center;
+  margin-top: 50px;
+}
+.picture {
+  width: 70%;
+  padding: 5px 0px;
+}
+.subtitle {
+  padding: 55px 0px;
+  font-size: 35px;
+}
 /* RESPONSIVE 1023px */
 @media (min-width: 1023px) {
   /* FOOTER */
