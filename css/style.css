@@ -1,4 +1,5 @@
 /* GENERAL */
+/* HEADER */
 nav {
   background-color: rgba(247, 175, 150, 0.803);
 }
@@ -30,6 +31,7 @@ footer {
 .footer-copyright {
   color: white;
 }
+/* PÁGINAS */
 /* INICIO */
 .container {
   text-align: center;
@@ -43,13 +45,16 @@ footer {
   color: whitesmoke;
 }
 .title {
-  font-family: "Dancing Script", cursive;
-  font-family: "Lobster", cursive;
-  font-family: "Moon Dance", cursive;
+  font-family: "Anton", sans-serif;
 }
 .image {
   width: 90%;
   height: 90%;
+}
+/* SOBRE MI */
+.p {
+  padding: 15px;
+  font-size: 20px;
 }
 /* PRODUCTOS*/
 .section {
@@ -65,9 +70,7 @@ footer {
     "cakepops";
 }
 .title_productos {
-  font-family: "Dancing Script", cursive;
-  font-family: "Lobster", cursive;
-  font-family: "Moon Dance", cursive;
+  font-family: "Anton", sans-serif;
   grid-area: titulo;
   text-align: center;
   margin-top: 30px;
@@ -93,8 +96,50 @@ footer {
   padding: 5px 0px;
 }
 .subtitle {
+  font-family: "Anton", sans-serif;
   padding: 55px 0px;
   font-size: 35px;
+}
+/* PREGUNTAS FRECUENTES */
+.FAQ_title {
+  font-family: "Anton", sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+.FAQ {
+  padding: 30px 15px;
+}
+.preguntas {
+  border-style: solid;
+}
+.FAQ_subtitle {
+  font-family: "Anton", sans-serif;
+  border-bottom-style: solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.h3 {
+  padding: 10px 0px;
+}
+.respuestas {
+  border-style: solid;
+}
+.respuesta {
+  font-size: 20px;
+}
+/* RESPONSIVE 760px*/
+/* PRODUCTOS */
+
+@media (min-width: 760px) {
+  .section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .picture {
+    width: 40%;
+  }
 }
 /* RESPONSIVE 1023px */
 @media (min-width: 1023px) {
