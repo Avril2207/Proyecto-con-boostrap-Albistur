@@ -30,7 +30,7 @@
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
       rel="stylesheet"
     />
-    <title>Tortas Sheila Castro | Sobre mi</title>
+    <title>Tortas Sheila Castro | Contacto</title>
   </head>
   <body>
     <!-- header -->
@@ -83,38 +83,43 @@
       </nav>
     </header>
     <section>
-      <div class="container mt-5 ml-5 mr-5 mb-5">
-        <h1 class="title">SOBRE MI</h1>
-        <p class="p">
-          Soy una emprendedora repostera 100% artesanal que realiza tortas de
-          todo tipo y para todos los gustos. Tortas para cumpleaños, fiestas de
-          15, bodas, tortas para eventos especiales, y cualquier ocación. Sin
-          embargo eso no es lo único en lo que me especializo, tambien realizo
-          galletas, cupecakes y popcakes como decoración.
-        </p>
-      </div>
-    </section>
-    <!-- sección ubicación -->
-    <section class="bg-danger py-5">
-      <div class="container text-light">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="title">UBICACIÓN</h2>
-            <p class="p">
-              Estoy ubicada en la cuidad de Melo,Departamento de Cerro Largo,
-              Uruguay.
-            </p>
-            <iframe
-              class="container"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.9678869110976!2d-54.1613671!3d-32.366406999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95092a2d64ead099%3A0x7a15a626676cd822!2sEsteban%20Vieira%201013%2C%2037000%20Melo%2C%20Departamento%20de%20Cerro%20Largo!5e0!3m2!1ses-419!2suy!4v1673119955136!5m2!1ses-419!2suy"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              width="400"
-              height="250"
-            ></iframe>
-          </div>
+      <h1 class="title_contacto py-5">CONTÁCTATE CONMIGO</h1>
+      <div class="container bg-danger py-3 my-3">
+        <div>
+          <label for="nombre" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Nombre"
+          />
+        </div>
+        <div>
+          <label for="apellido" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="apellido"
+            placeholder="Apellido"
+          />
+        </div>
+        <div class="text-align-center">
+          <label for="email" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Correo electrónico"
+          />
+        </div>
+        <div>
+          <label for="text" class="form-label"></label>
+          <textarea
+            class="form-control"
+            id="text"
+            rows="5"
+            placeholder="Deja tu pregunta"
+          ></textarea>
         </div>
       </div>
     </section>
